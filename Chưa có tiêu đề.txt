@@ -1,0 +1,30 @@
+"-[[
+ ██████╗ ██╗████████╗████████╗██╗███╗   ██╗██╗  ██╗   ██╗  ██╗ ██╗ ██╗ ██████╗
+██╔════╝ ██║╚══██╔══╝╚══██╔══╝██║████╗  ██║██║ ██╔╝   ██║  ██║ ██║ ██║ ██╔══██╗
+███████╗ ██║   ██║      ██║   ██║██╔██╗ ██║████╔╝     ███████║ ██║ ██║ ██████╔╝
+╚════██║ ██║   ██║      ██║   ██║██║╚██╗██║██╔═██╗    ██╔══██║ ██║ ██║ ██╔══██╗
+██████╔╝ ██║   ██║      ██║   ██║██║ ╚████║██║  ██╗   ██║  ██║ ╚█████╝ ██████╔╝
+╚═════╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝  ╚═╝  ╚═══╝   ╚═════╝ 
+]]--
+
+repeat task.wait() until game:IsLoaded()
+Notify = require(game.ReplicatedStorage:WaitForChild("Notification"))
+Notify.new("<Color=Red>Welcome to sitink hub<Color=/>"):Display()
+Notify.new("<Color=Black>Owner : Nhân Dz<Color=/>"):Display() 
+Notify.new("<Color=Red>Discord: https://discord.gg/6ptwW2G2<Color=/>"):Display() 
+Notify.new("<Color=Yellow>You Executor : <Color=/> ".. identifyexecutor()):Display() 
+
+local PlaceId = game.PlaceId
+local plr = game.Players.LocalPlayer
+
+if PlaceId == 2753915549 or PlaceId == 4442272183 or PlaceId == 7449423635 then
+ Hookfunction = hookfunction or hookfunc
+    local Death = require(game.ReplicatedStorage.Effect.Container:WaitForChild("Death"))
+    local Respawn = require(game.ReplicatedStorage.Effect.Container:WaitForChild("Respawn"))
+    Hookfunction(Death, function() return nil end)
+    Hookfunction(Respawn, function() return nil end)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MinhNghia2k11/Main/main/Main-BF"))()
+else
+    plr:Kick("Đéo support Cook!!")
+end"
+ https://raw.githubusercontent.com/MinhNghia2k11/Main/main/SitinksHub.lua#:~:text=%2D%5B%5B%0A%20%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97%20%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%96%88%E2%95%97%20%20%20%E2%96%88%E2%96%88%E2%95%97%E2%96%88%E2%96%88%E2%95%97%20%20%E2%96%88%E2%96%88%E2%95%97%20%20%20%E2%96%88%E2%96%88%E2%95%97%20%20%E2%96%88%E2%96%88%E2%95%97%20%E2%96%88%E2%96%88%E2%95%97%20%E2%96%88%E2%96%88%E2%95%97%20%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97%0A%E2%96%88%E2%96%88%E2%95%94%E2%95%90%E2%95%90%E2%95%90%E2%95%90%E2%95%9D%20%E2%96%88%E2%96%88%E2%95%91%E2%95%9A%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%94%E2%95%90%E2%95%90%E2%95%9D%E2%95%9A%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%94%E2%95%90%E2%95%90%E2%95%9D%E2%96%88%E2%96%88%E2%95%91%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%95%97%20%20%E2%96%88%E2%96%88%E2%95%91%E2%96%88%E2%96%88%E2%95%91%20%E2%96%88%E2%96%88%E2%95%94%E2%95%9D%20%20%20%E2%96%88%E2%96%88%E2%95%91%20%20%E2%96%88%E2%96%88%E2%95%91%20%E2%96%88%E2%96%88%E2%95%91%20%E2%96%88%E2%96%88%E2%95%91%20%E2%96%88%E2%96%88%E2%95%94%E2%95%90%E2%95%90%E2%96%88%E2%96%88%E2%95%97,support%20Cook!!%22)%0Aend
